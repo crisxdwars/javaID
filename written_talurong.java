@@ -10,8 +10,6 @@ public class written_talurong {
             try {
                 System.out.println("\nWelcome to my restaurant!\n------------------------\n");                                  
                 Thread.sleep(1500);
-                
-                    Thread.sleep(500);
                     System.out.println("MEAL-----PACKAGE-----PRICE");
                     System.out.println("[A]--Chicken & Fries---100");
                     System.out.println("[B]--Hamburger & Fries-150");
