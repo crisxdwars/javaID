@@ -29,7 +29,6 @@ public class written_talurong {
                             System.out.println("Order Processed!");
                             System.out.println("\nMeal: Chicken & Fries\n" + "Quantity: " + quant_A + "\nTotal: " + quant_A * 100);
                             System.out.println("\nWait for your order to be delivered.");
-                            input.close();
                         break;
                         case "b":
                             System.out.println("You Choosed Hamburger & Fries");
@@ -40,7 +39,6 @@ public class written_talurong {
                             System.out.println("Order Processed!");
                             System.out.println("\nMeal: Hamburger & Fries\n" + "Quantity: " + quant_B + "\nTotal: " + quant_B * 150);
                             System.out.println("\nWait for your order to be delivered.");
-                            input.close();
                         break;
                         case "c":
                             System.out.println("You Choosed Pizza & Salad");
@@ -51,7 +49,6 @@ public class written_talurong {
                             System.out.println("Order Processed!");
                             System.out.println("\nMeal: Pizza & Salad\n" + "Quantity: " + quant_C + "\nTotal: " + quant_C * 200);
                             System.out.println("\nWait for your order to be delivered.");
-                            input.close();
                         break;
                         default:
                             System.out.println("\nPlease Enter The Right Choice\n");
